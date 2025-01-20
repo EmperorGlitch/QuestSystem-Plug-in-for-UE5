@@ -11,11 +11,22 @@ Users can create new quests, assign goals and update their statuses directly fro
 - Ease of integration and customization in any Unreal Engine project. <br />
 # Project composition
 The Unreal Engine quest system plugin consists of the following main components:
-<br />
 1. Module (QuestEditor) <br />
-+ This module adds a new item “Quest Editor” to the editor menu, which opens an interface for editing quests. When the menu item is activated, it opens a tab with a Quest Editor widget where you can work with quests and objectives <br />
-2. Quest editor interface (QuestEditorWidget) <br />
-+ This is an interface widget for editing quests and goals. It provides visual tools to create, edit and manage quests within the editor. <br />
-<br />
+This module adds a new item “Quest Editor” to the editor menu, which opens an interface for editing quests. When the menu item is activated, it opens a tab with a Quest Editor widget where you can work with quests and objectives. <br />
+2. QuestEditorWidget Interface <br />
+⋅⋅⋅This is an interface widget for editing quests and objectives. It provides visual tools for creating, editing and managing quests within the editor.<br />
 The quest system consists of the following main components: <br />
-3. Quest editor interface (QuestEditorWidget) <br />
+3. QuestSystem <br />
+A subsystem that manages quests in gameplay. It loads all quests from the specified Assets folder, sets the active quest, updates the statuses of objectives, and generates events when the status of a quest or objective changes. <br />
+System supports events: <br />
+* OnQuestActivated and OnQuestCompleted - for quests.
+* OnGoalActivated and OnGoalCompleted are for the purposes of. <br /> <br /> 
+Loads quests and goals from assets in the project and provides methods to change their state.  <br />
+4. Data structures (QuestGoalData, QuestData) <br />
+* FQuestGoalData: Description of quest objectives with unique identifier, title, description and status.
+* UQuestData: Contains information about the quest, including identifier, title, description and list of objectives. <br /> <br />
+The plugin is thus a complete tool for creating and managing quests in Unreal Engine, which includes an editing interface, a system for working with quest and goal data, and events for interacting with other parts of the game. <br />
+# Installation and setup
+1. Download the project from GitHub.
+2. Copy the Plugins folder to the Plugins directory of your Unreal Engine project. <br />
+![image](https://github.com/user-attachments/assets/5feae4fb-ef33-418a-b59b-0e24ac99d42b)
