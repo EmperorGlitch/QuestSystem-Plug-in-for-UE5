@@ -18,4 +18,4 @@ The Unreal Engine quest system plugin consists of the following main components:
 + This is an interface widget for editing quests and goals. It provides visual tools to create, edit and manage quests within the editor. <br />
 <br />
 The quest system consists of the following main components: <br />
- Quest editor interface (QuestEditorWidget) <br />
+3. Quest editor interface (QuestEditorWidget) <br />
