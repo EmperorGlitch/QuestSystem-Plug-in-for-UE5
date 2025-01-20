@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "QuestEditor",
+	"Description": "A plugin to edit and save quests",
+	"Category": "Other",
+	"CreatedBy": "Emperor8bit ",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "QuestEditor",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
