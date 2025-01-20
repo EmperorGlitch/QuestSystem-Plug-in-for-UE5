@@ -21,8 +21,8 @@ The quest system consists of the following main components: <br />
 3.	QuestSystem <br />
 + A subsystem that manages the quests in the gameplay. It loads all quests from the specified Assets folder, sets the active quest, updates the statuses of objectives, and generates events when the status of a quest or objective changes. <br />
 + The system supports events <br />
-- OnQuestActivated and OnQuestCompleted - for quests. 
-- OnGoalActivated and OnGoalCompleted - for goals.
+- OnQuestActivated and OnQuestCompleted - for quests. <br />
+- OnGoalActivated and OnGoalCompleted - for goals. <br />
 + Loads quests and goals from assets in the project and provides methods to change their state. <br />
 
 #
