@@ -4,7 +4,7 @@ This project is a quest system for Unreal Engine, as well as a plugin for easy c
 The plugin extends the Unreal Engine editor by adding the ability to create and edit quests and their objectives in a user-friendly interface.
 Users can create new quests, assign goals and update their statuses directly from the editor, as well as integrate the quest system into the project.
 <br />
-Benefits: <br />
+# Benefits: <br />
 - Easy to add and manage quests through the editor. <br />
 - Integration with other game systems such as UI and triggers. <br />
 - Ability to subscribe to quest events, making it easy to interact with other game systems. <br />
