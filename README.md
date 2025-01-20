@@ -47,16 +47,16 @@ The plugin is thus a complete tool for creating and managing quests in Unreal En
 5. Editing is done in the same interface, just make changes and click on Save Quest button as well.
 6. To add a goal you need to click on the Add Goal button and enter a name and description.
 7. To delete a quest, just select the quest in Quests List and click on Delete Quest button. <br /> <br />
-Quests are saved in DataAssets and can be loaded into the quest system when the game level starts. <br />
-![image](https://github.com/user-attachments/assets/dd60f336-0f19-479c-89b3-238ecc35be3b)
+Quests are saved in DataAssets and can be loaded into the quest system when the game level starts. 
+![image](https://github.com/user-attachments/assets/dd60f336-0f19-479c-89b3-238ecc35be3b) <br />
 Example of quest activation in the game: <br />
-![image](https://github.com/user-attachments/assets/509d6ee7-c8db-4e30-8893-f75e506f8041)
+![image](https://github.com/user-attachments/assets/509d6ee7-c8db-4e30-8893-f75e506f8041) <br />
 Example of updating the status of quest system goals: <br />
-![image](https://github.com/user-attachments/assets/c54d90e4-e791-4bbc-a8ff-e5f61628413f)
+![image](https://github.com/user-attachments/assets/c54d90e4-e791-4bbc-a8ff-e5f61628413f) <br />
 Example of subscription to completion events, quest and goal activations: <br />
-![image](https://github.com/user-attachments/assets/dfbd9e00-a0dd-4425-983d-7eb04703894f)
+![image](https://github.com/user-attachments/assets/dfbd9e00-a0dd-4425-983d-7eb04703894f) <br />
 Example of using methods to visualize the current quest and goal in the UI: <br />
-![image](https://github.com/user-attachments/assets/99080671-9841-4d29-a863-fb0c29217957)
+![image](https://github.com/user-attachments/assets/99080671-9841-4d29-a863-fb0c29217957) <br />
 
 
 
